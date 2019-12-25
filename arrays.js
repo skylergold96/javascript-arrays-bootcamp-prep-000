@@ -29,7 +29,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array, element) {
   return array.shift(element)
 }
 function removeElementFromBeginningOfArray (array, element) {
-  const begArray = array.slice(element);
+  const begArray = array.slice(1);
   return begArray;
 }
 function destructivelyRemoveElementFromEndOfArray (array, element) {
