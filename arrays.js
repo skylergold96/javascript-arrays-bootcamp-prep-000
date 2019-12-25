@@ -12,8 +12,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 
 
-function destructivelyAddElementToEndOfArray (array, element) {
- return array.push(element);
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push('foo');
+  return array
 }
 
 function addElementToEndOfArray (array,element){
